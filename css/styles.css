@@ -189,8 +189,6 @@ img {
   align-items: center;
   margin-top: 50px;
 }
-.crew-item {
-}
 .social-icon {
   width: 20px;
   height: 20px;
@@ -459,16 +457,17 @@ img {
 }
 .mail-icon {
   margin-right: 10px;
+  fill: #757575;
 }
 .phone-icon {
   margin-right: 10px;
+  fill: #757575;
 }
 .adress {
   color: #757575;
   text-decoration: none;
 }
-
-.link:visited {
+.link {
   color: #212121;
 }
 .link:hover,
