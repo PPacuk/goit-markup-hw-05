@@ -266,6 +266,7 @@ img {
 }
 .highlightbottom {
   color: #ffffff;
+  transition: color 250ms linear;
 }
 .highlightbottom:visited {
   color: #ffffff;
@@ -398,6 +399,9 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.menuitem{
+  color: #2196f3;
+}
 .containerflex {
   width: 1200px;
   margin: 0 auto;
@@ -450,9 +454,9 @@ img {
   color: #757575;
 }
 .adress:hover,
+.adress:hover svg,
 .adress:focus {
   color: #2196f3;
-
   fill: #2196f3;
 }
 .mail-icon {
@@ -466,6 +470,7 @@ img {
 .adress {
   color: #757575;
   text-decoration: none;
+  transition: color 250ms linear;
 }
 .link {
   color: #212121;
@@ -476,6 +481,7 @@ img {
 }
 .link {
   text-decoration: none;
+  transition: color 250ms linear;
 }
 /*========================== buttons ==========================*/
 .button:hover,
@@ -496,7 +502,7 @@ img {
 .button.menuport-list {
   height: 38px;
   padding: 6px 22px;
-  border-radius: 4px;
+  border-radius: 4px; 
 }
 #orderbutton:hover,
 #orderbutton:focus {
@@ -520,3 +526,4 @@ img {
   margin: auto;
   border: none;
 }
+/*========================== modal ==========================*/
