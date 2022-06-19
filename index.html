@@ -55,7 +55,7 @@
     <main>
       <section class="title">
         <h1 class="titlecontainer" id="title">efektywne rozwiązania dla waszego biznesu</h1>
-        <button id="orderbutton" type="button">Zamów usługę</button>
+        <button id="orderbutton" type="button" data-modal-open>Zamów usługę</button>
       </section>
       <section>
         <div class="container">
@@ -402,14 +402,14 @@
       </div>
     </footer>
 <!-- /*========================== modal ==========================*/ -->
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button">X</button>
-        <svg class="close-btn">
-          <use href></use>
+        <svg class="close-btn" type="button" data-modal-close>
+          <use href="./image/icons.svg#icon-close"></use>
         </svg>
       </div>
     
-    </div>    
+    </div> 
+    <script src="./js/modal.js"></script>   
   </body>
 </html>
