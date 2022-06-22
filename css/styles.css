@@ -69,6 +69,7 @@ img {
   border-bottom: 2px solid;
   position: relative;
   top: 33px;
+  color: #2196f3;
 }
 /*========================== main ==========================*/
 
@@ -84,6 +85,7 @@ img {
     url(../image/imgbgc.jpg);
   height: 600px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 #title {
   font-family: 'Roboto';
@@ -209,7 +211,8 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-list-item:hover,
-.customers-list-item:focus {
+.customers-list-item:focus,
+.customers-list-item:hover use {
   cursor: pointer;
   border: 1px solid #2196f3;
 }
